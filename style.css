@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    max-width: 500px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#addTaskBtn {
+    background: green;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+#addTaskBtn:hover {
+    font-weight: 600;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 12px 16px;
+    border: none;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.task-input button:hover {
+    opacity: 0.9;
+}
+
+#taskList {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* after here, the elements wore created in JavaScrip, not CSS */
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.task-item span {
+    flex: 1;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
