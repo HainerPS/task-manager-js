@@ -48,4 +48,4 @@ A simple task manager built with JavaScript that allows users to add, complete, 
 
 ## 🔗 Live Demo
 
-(coming soon)
+task-manager-js-pearl.vercel.app
