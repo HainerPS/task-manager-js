@@ -9,6 +9,10 @@ A simple task manager built with JavaScript that allows users to add, complete, 
 - Delete tasks
 - Persist data using localStorage
 
+## 🔗 Live Demo
+
+https://task-manager-js-pearl.vercel.app
+
 ## 🛠️ Technologies
 
 - HTML
@@ -45,7 +49,3 @@ A simple task manager built with JavaScript that allows users to add, complete, 
 - Event handling
 - localStorage usage
 - Structuring JavaScript code
-
-## 🔗 Live Demo
-
-https://task-manager-js-pearl.vercel.app
